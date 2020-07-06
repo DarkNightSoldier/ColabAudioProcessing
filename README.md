@@ -1,4 +1,4 @@
-# Módulo de procesamiento de audio para Google Colaboratory.
+# Módulo de procesamiento de audio para Google Colaboratory
 
 [![Build Status](https://travis-ci.com/DarkNightSoldier/DarkNightSoldier.github.io.svg?branch=master)](https://travis-ci.com/DarkNightSoldier/DarkNightSoldier.github.io)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DarkNightSoldier/AudioProcessing/master?filepath=Procesamiento_Audio.ipynb)
