@@ -2,11 +2,9 @@
 -e .
 
 matplotlib
-librosa
 numpy
 scipy
-tqdm
-
+iPython
 
 # for testing
 coverage
