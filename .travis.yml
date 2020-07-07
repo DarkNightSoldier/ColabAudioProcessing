@@ -4,6 +4,6 @@ os:
 python:
   - "3.6"
 install:
-  - pip install requirements.txt
+  - pip install -requirements.txt
 script:
   - pytest
