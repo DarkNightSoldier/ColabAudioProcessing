@@ -6,13 +6,11 @@ with open("README.md", "r") as fh:
 setup(
     name="colabaudiopr_Es",
     packages=find_packages(),
-    version="1.1.0",
-    description="Analisis y modificacion .wav",
+    version="1.0",
+    description="Implementación en Google Colab para el analisis y modificacion de archivos .wav",
     author="Alejandro Higuera",
     license="MIT",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/timsainb/noisereduce",
+    url="https://github.com/DarkNightSoldier/colabaudiopr_es",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: BSD License",
