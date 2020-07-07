@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-with open("README.md", "r") as fh:
+with open("README.md", "r",encoding="utf8") as fh:
     long_description = fh.read()
 
 setup(
@@ -12,7 +12,9 @@ setup(
     license="MIT",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/DarkNightSoldier/colabaudiopr_es",
+    author_email='ahiguerac@unal.edu.co',
+    keywords=["Manipulation","Spanish","Audio","WAVFILE"],
+    url="https://github.com/DarkNightSoldier/ColabAudioProcessing",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: BSD License",
