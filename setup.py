@@ -22,5 +22,4 @@ setup(
         "Topic :: Scientific/Engineering",
     ],
     install_requires=["scipy", "matplotlib","iPython","numpy"]
-    }
 )
