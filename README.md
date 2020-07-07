@@ -7,7 +7,7 @@
 
 **Autor:** Alejandro Higuera Castro
 
-**Fecha de publicación** 5 de julio de 2020
+**Fecha de publicación** 6 de julio de 2020
 
 **Versión** 1.1
 
