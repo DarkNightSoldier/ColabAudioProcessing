@@ -6,7 +6,6 @@
 [![Open In NbViewer](https://user-images.githubusercontent.com/2791223/29387450-e5654c72-8294-11e7-95e4-090419520edb.png)](https://nbviewer.jupyter.org/github/DarkNightSoldier/AudioProcessing/blob/master/Procesamiento_Audio.ipynb)
 [![PyPI version](https://badge.fury.io/py/colabaudiopr_es.svg)](https://badge.fury.io/py/colabaudiopr_es)
 
-<p align="center"><img src="https://alejandrohiguera.codes/AudioProcessing/files/banner-cs.svg" width="100%"></p>
 
 **Nombre:** Alejandro Higuera Castro
 
@@ -25,7 +24,6 @@
 1. [Introducción](#1-introducción)
 2. [Instalación del módulo](#2-instalación-del-módulo)
 3. [Algunas funcionalidades](#3-algunas-funcionalidades)
-4. [Conclusión del proyecto](#4-conclusión-del-proyecto)
 
 ## 1. Introducción
 
@@ -87,7 +85,3 @@ Se puede leer en detalle acerca de las funcionalidades del proyecto en [alejandr
     1. [Funcionamiento](https://alejandrohiguera.codes/AudioProcessing/acerca.html#71-funcionamiento)
     2. [Código de la función](https://alejandrohiguera.codes/AudioProcessing/acerca.html#72-código-de-la-función)
     3. [Demostración](https://alejandrohiguera.codes/AudioProcessing/acerca.html#73-demostración)
-    
-## 4. Conclusión del proyecto
-
-
