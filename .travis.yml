@@ -1,9 +1,0 @@
-language: python
-os:
-  - linux
-python:
-  - "3.6"
-install:
-  - pip install -requirements.txt
-script:
-  - pytest

@@ -1,12 +1,12 @@
-from distutils.core import setup
+from setuptools import setup
 
-with open("README.md", "r",encoding="utf8") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="colabaudiopr_es",
-    packages=['colabaudiopr_es'],
-    version="1.0",
+    name="ColabAudioProcessing",
+    packages=['ColabAudioProcessing'],
+    version="1.1",
     description="Implementación para el análisis y modificacion de archvos .wav en Google Colaboratory",
     author="Alejandro Higuera",
     license="MIT",
