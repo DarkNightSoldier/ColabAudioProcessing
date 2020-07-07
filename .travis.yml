@@ -3,9 +3,7 @@ os:
   - linux
 python:
   - "3.6"
-script:
-  - pytest --cov=colabaudiopr_es
-after_success:
-  - coveralls
 install:
   - pip install -r requirements.txt
+script:
+  - pytest
