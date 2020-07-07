@@ -5,6 +5,11 @@ from scipy.fftpack import *
 import matplotlib.pyplot as plt
 import math
 
+# Created at: 6th July 2020
+#         by: Alejandro Higuera
+
+# Modulo para la implementación de análisis y procesamiento de archivos en formato .wav para Google Colaboratory.
+
 def playAudio(file):
     """
     Muestra en pantalla el reproductor de iPython Display para un archivo de
