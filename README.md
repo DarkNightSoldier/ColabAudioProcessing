@@ -1,16 +1,15 @@
 # Módulo de procesamiento de audio para Google Colaboratory
 
-[![Build Status](https://travis-ci.com/DarkNightSoldier/DarkNightSoldier.github.io.svg?branch=master)](https://travis-ci.com/DarkNightSoldier/DarkNightSoldier.github.io)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DarkNightSoldier/AudioProcessing/master?filepath=Procesamiento_Audio.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DarkNightSoldier/AudioProcessing/blob/master/Procesamiento_Audio.ipynb)
 [![Open In NbViewer](https://user-images.githubusercontent.com/2791223/29387450-e5654c72-8294-11e7-95e4-090419520edb.png)](https://nbviewer.jupyter.org/github/DarkNightSoldier/AudioProcessing/blob/master/Procesamiento_Audio.ipynb)
 [![PyPI version](https://badge.fury.io/py/ColabAudioProcessing.svg)](https://badge.fury.io/py/ColabAudioProcessing)
 
-**Nombre:** Alejandro Higuera Castro
+**Autor:** Alejandro Higuera Castro
 
 **Fecha de publicación** 5 de julio de 2020
 
-**Versión** 1.0
+**Versión** 1.1
 
 ### *Link a PyPi:* [pypi.org/project/colabaudiopr_es](https://pypi.org/project/ColabAudioProcessing)
 ### *Github Page del proyecto:* [alejandrohiguera.codes/AudioProcessing](https://alejandrohiguera.codes/AudioProcessing/)
@@ -60,7 +59,7 @@ Se puede leer en detalle acerca de las funcionalidades del proyecto en [alejandr
     2. [Código de la función graficación comparativa](https://alejandrohiguera.codes/AudioProcessing/acerca.html#52-código-de-la-función-de-graficación-comparativa)
     3. [Demostración graficación comparativa](https://alejandrohiguera.codes/AudioProcessing/acerca.html#53-demostración-graficación-comparativa)
     4. [Código de la función graficación comparativa FFT](https://alejandrohiguera.codes/AudioProcessing/acerca.html#54-código-de-la-función-de-graficación-comparativa-fft)
-    5. [Demostración graficación comparativa FFT](https://alejandrohiguera.codes/AudioProcessing/acerca.html#https://alejandrohiguera.codes/AudioProcessing/acerca.html#55-demostración-graficación-comparativa-fft)
+    5. [Demostración graficación comparativa FFT](https://alejandrohiguera.codes/AudioProcessing/acerca.html#55-demostración-graficación-comparativa-fft)
 6. [Filtros EMA de paso bajo y paso alto](https://alejandrohiguera.codes/AudioProcessing/acerca.html#6-filtros-ema-de-paso-bajo-y-paso-alto)
     1. [Funcionamiento del filtro de paso bajo](https://alejandrohiguera.codes/AudioProcessing/acerca.html#61-funcionamiento-del-filtro-de-paso-bajo)
         * [Código de la función](https://alejandrohiguera.codes/AudioProcessing/acerca.html#611-código-de-la-función)
