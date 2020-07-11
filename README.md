@@ -9,7 +9,7 @@
 
 **Fecha de publicación** 6 de julio de 2020
 
-**Versión** 1.1
+**Versión** 1.2
 
 ### *Link a PyPi:* [pypi.org/project/ColabAudioProcessing](https://pypi.org/project/ColabAudioProcessing)
 ### *Github Page del proyecto:* [alejandrohiguera.codes/AudioProcessing](https://alejandrohiguera.codes/AudioProcessing/)
@@ -77,3 +77,4 @@ Se puede leer en detalle acerca de las funcionalidades del proyecto en [alejandr
     1. [Funcionamiento](https://alejandrohiguera.codes/AudioProcessing/acerca.html#71-funcionamiento)
     2. [Código de la función](https://alejandrohiguera.codes/AudioProcessing/acerca.html#72-código-de-la-función)
     3. [Demostración](https://alejandrohiguera.codes/AudioProcessing/acerca.html#73-demostración)
+8. Ajuste de volumen del audio.
