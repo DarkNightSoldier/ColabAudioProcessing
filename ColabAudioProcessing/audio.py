@@ -10,6 +10,14 @@ import math
 
 # Modulo para la implementación de análisis y procesamiento de archivos en formato .wav para Google Colaboratory.
 
+#Código del módulo
+from scipy.io import wavfile
+import numpy as np
+import IPython.display as ipd
+from scipy.fftpack import *
+import matplotlib.pyplot as plt
+import math
+
 def playAudio(file):
     """
     Muestra en pantalla el reproductor de iPython Display para un archivo de
@@ -236,6 +244,7 @@ def Frequency_Cutoff(type,frequency,input_filename,output_filename):
         Archivo de formato wav con nombre establecido por el usuario 
         <output_filename>.
     """
+    #Relación entre la frecuencia de corte y el parámetro alpha
     rate,data=ReadAudio(input_filename)
     dt=1/rate
     alpha=(2*math.pi*dt*frequency)/((2*math.pi*dt*frequency)+1)
@@ -374,3 +383,36 @@ def AudioGraphing(Graph_Title,data_1,rate_1,audio1_title,data_2,rate_2,audio2_ti
         plt.fill_between(tiempo_2,data_2,color='m',label=audio2_title) 
         plt.legend(loc='upper right', borderaxespad=0.)
         plt.show()
+
+def AdjustVolume(input_filename,volume,output_filename):
+    """
+    Muestra en pantalla el reproductor de audio y guarda el audio con la
+    velocidad dada por el usuario para el archivo .wav estipulado.
+
+    Parámetros
+    ----------
+    input_filename: string
+         Nombre o localización/path del archivo .wav de entrada.
+    volume: float
+         Porcentaje de volumen del audio de salida.
+    output_filename: string
+         Nombre o localización/path del archivo .wav de salida
+    
+    Retorna
+    ----------
+    Reproductor en pantalla de iPython con el audio con el volumen deseado.
+    """
+    rate,data=ReadAudio("sweet.wav")
+    #Convertirlo a mono, hace menos pesado y rápido de procesar el audio
+    data=ConvertToMono(data)
+    adjusted=[]
+
+    #Multiplicamos la amplitud actual por el factor de aumento deseado
+    for i in range(len(data)):
+      adjust=(volume/100)*data[i]
+      adjusted.append(adjust)
+
+    adjusted=np.array(adjusted,dtype=data.dtype)
+    WriteAudio(output_filename,rate,adjusted)
+    print(f"El archivo se guardo con éxito como {output_filename}")
+    return playAudio(output_filename)
